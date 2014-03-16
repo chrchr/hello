@@ -1,0 +1,25 @@
+source 'https://rubygems.org'
+gem 'rails', '4.0.4'
+gem 'sqlite3'
+gem 'sass-rails', '~> 4.0.2'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder', '~> 1.2'
+
+gem 'unicorn'
+gem 'haml-rails'
+gem 'bootstrap-sass'
+gem 'therubyracer'
+gem 'pry-rails'
+
+group :test, :development do
+  gem 'debugger'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'poltergeist'
+  gem 'rubocop'
+  gem 'brakeman'
+end
