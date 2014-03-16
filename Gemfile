@@ -18,8 +18,6 @@ group :test, :development do
   gem 'debugger'
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'capybara-webkit'
   gem 'poltergeist'
   gem 'rubocop'
-  gem 'brakeman'
 end
